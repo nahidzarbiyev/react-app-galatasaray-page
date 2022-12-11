@@ -75,7 +75,7 @@ const Newsslides = () => {
         <SwiperSlide>
           {" "}
           <img src={falcao} alt="" className="relative main-img" />{" "}
-          <div className=" flex justify-center align-center md:block  w-full h-[100px] news absolute bottom-12  bg-gs-red/75">
+          <div className=" flex justify-center align-center md:block  w-full h-[100px] news absolute bottom-8  bg-gs-red/75">
             <h1 className="text-white ">
               {" "}
               Rayo Vallecano will come to Istanbul on 28 November and will face

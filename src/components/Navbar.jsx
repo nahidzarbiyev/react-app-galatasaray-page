@@ -62,7 +62,7 @@ const Navbar = () => {
   return (
     <>
       <header className="w-full fixed  z-10 h-36 bg-gs-red  ">
-        <div className="main-navbar-sec md:block lg:flex lgImax-w-[1900px]  m-auto">
+        <div className="main-navbar-sec md:block lg:flex lg:max-w-[1900px]  m-auto">
           <div className="GS-name bg-gs-red flex justify-center items-center lg:w-72 m-auto lg:h-36 border-[1px] border-gray-600 hover:bg-opacity-90 ">
             <Link to="/" className="flex lg:p-0 p-4">
               <img src={GSlogo} alt="" className="w-[38px] h-18 " />
@@ -85,6 +85,7 @@ const Navbar = () => {
             <AiOutlineClose className="text-gs-yellow x-menu z-10 cursor-pointer w-[50px] h-[50px] bg-transparent" ref={autlineclose} onClick={menuOutlineiconclose}/>
             </div>
                <ul className="text-center  text-gs-yellow text-2xl font-bold">
+               <li className="mb-5 "><Link to="/">Home</Link></li>
                 <li className="mb-5 "><Link to="/firstteam">First Team</Link></li>
                 <li className="mb-5 "><Link to="/neftstadium">Nef Stadium</Link ></li>
                 <li className="mb-5 "><Link to="/gsstore">GS store</Link></li>
@@ -520,7 +521,7 @@ const Navbar = () => {
                 </div>
               </div>
 
-              <div className="search-input  flex  p-0 relative">
+              <div className="search-input  flex  p-0 mr-2 relative">
                 <input
                   type="search "
                   className="outline-none w-[300px] p-2 h-8 pl-4 pr-8 text-sm rounded "

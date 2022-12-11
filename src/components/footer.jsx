@@ -1,5 +1,6 @@
 import React from "react";
 import GSlogo from "../img/GS-logo.png";
+import { Link } from "react-router-dom";
 
 // import playerJson from "../api/players.json";
 
@@ -216,7 +217,7 @@ const footer = () => {
 
         <div className="footer grid grid-cols-1 ">
           <div className="GS-name bg-gs-red flex md:m-auto flex-wrap justify-center items-center w-80 h-32  border-gray-600 hover:bg-opacity-90 ">
-            <a href="##" className="flex">
+            <Link to="/" className="flex">
               <img src={GSlogo} alt="" className="w-[45px] h-18 " />
               <span className="text-gs-yellow text-3xl font-bold mt-7 ml-2">
                 Galata
@@ -224,7 +225,7 @@ const footer = () => {
               <span className="text-gs-yellow text-3xl font-bold mt-7 ">
                 saray
               </span>
-            </a>
+            </Link>
           </div>
           <div className="grid lg:grid-cols-2 md:grid-cols-1 ">
             <span className="text-white pl-10 md:text-center lg:text-left">
