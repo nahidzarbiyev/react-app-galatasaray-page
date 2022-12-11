@@ -1,0 +1,212 @@
+[
+    {
+        "GKid": "#1",
+        "GKname": "Fernando Muslera"
+    }
+    ,
+    {
+        "GKid": "#34",
+        "GKname": " Okan Kocuk"
+    }
+    ,
+    {
+        "DFid": "#25",
+        "DFname": " Victor Nelsson"
+    }
+    ,
+
+    {
+        "DFid": "#42",
+        "DFname": " Abdulkerim Bardakci"
+    }
+    ,
+    {
+        "DFid": "#40",
+        "DFname": " Emin Bayram"
+    }
+    ,
+    {
+        "DFid": "#90",
+        "DFname": "Metehan Baltaci"
+    }
+    ,
+    {
+        "DFid": "#3",
+        "DFname": " Patrick Van Aanholt"
+    }
+    , 
+     {
+        "DFid": "#13",
+        "DFname": " Emre Tasdemir"
+    }
+    , 
+    {
+       "DFid": "#93",
+       "DFname": " Sacha Boey"
+   }
+   , 
+   {
+      "DFid": "#2",
+      "DFname": " Leo Dubois"
+  }
+    
+  , 
+  {
+     "MDFid": "#5",
+     "MDFname": " Lucas Torreira "
+ }
+ , 
+ {
+    "MDFid": "#63",
+    "MDFname": "Baran Aksaka"
+}
+, 
+{
+   "MDFid": "#6",
+   "MDFname": " Fredrick midtsjo"
+}
+, 
+{
+   "MDFid": "#27",
+   "MDFname": "Sergio Oliviera"
+}
+, 
+{
+   "MDFid": "#22",
+   "MDFname": " Berkan Kutlu"
+}
+, 
+{
+   "MDFid": "#64",
+   "MDFname": "Juan Mata"
+}
+
+, 
+{
+   "FWid": "#9",
+   "FWFname": "Haris Seferovic"
+}
+
+, 
+{
+   "FWid": "#7",
+   "FWFname": "Kerem Akturkoglu"
+}
+, 
+{
+   "FWid": "#53",
+   "FWFname": "Baris alper Yilmaz"
+}
+, 
+{
+   "FWid": "#11",
+   "FWFname": "Yunus Akgun"
+}
+, 
+{
+   "FWid": "#30",
+   "FWFname": "Yusuf Demir"
+}
+, 
+{
+   "FWid": "#26",
+   "FWFname": "Milot Rashica"
+}
+, 
+{
+   "FWid": "#99",
+   "FWFname": "Mauro Icardi"
+}
+, 
+{
+   "FWid": "#10",
+   "FWFname": "Dries Mertens"
+}
+, 
+{
+   "FWid": "#18",
+   "FWFname": "Bafetimbi Gomis"
+}
+,
+{
+    "product":"GS TV"
+},
+{
+    "product":"GS Store"
+}
+,
+{
+    "product":"GS Apps"
+}
+,
+{
+    "product":"Tickets And museum"
+}
+,
+{
+    "product":"GS TV app"
+}
+,
+{
+    "product":"Online Store"
+}
+,
+{
+    "product":"Support and FAQs"
+}
+,
+{
+    "club":"NEF Stadium"
+}
+,
+{
+    "club":"Florya camps"
+}
+
+,
+{
+    "club":"Galatasaray highschool"
+}
+
+,
+{
+    "club":"Academy"
+}
+,
+{
+    "club":"Branches"
+}
+,
+{
+    "club":"Work at the GsStore"
+}
+,
+{
+    "History":"Ali Sami Yen"
+}
+,
+{
+    "History":"1999-2004 golden area"
+}
+,
+{
+    "History":"Metin Oktay"
+}
+,
+{
+    "History":"Fatih Terim"
+}
+,
+{
+    "History":"1905-1911 Foundation and survival"
+}
+,
+{
+    "History":"Galatasaray in Europe "
+}
+
+
+
+
+
+]

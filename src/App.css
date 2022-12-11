@@ -1,0 +1,284 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.drop-down-menu {
+  @apply opacity-0 transition-all duration-500 invisible;
+}
+
+.GS-nav-bottom .drop-down-main:hover {
+  @apply opacity-100;
+}
+
+.GS-nav-bottom .drop-down-main:hover .drop-down-menu {
+  @apply opacity-100 visible;
+}
+
+.flag-select button {
+  @apply h-10  bg-gs-red outline-none;
+}
+
+.flag-select button > span span:nth-child(2) {
+  @apply text-sm text-gs-yellow;
+}
+
+@media only screen and (min-width: 1024px) {
+  .contain {
+    max-width: 1800px;
+    height: 400px;
+    margin: 0 auto;
+  }
+
+  .news-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  .relate {
+    background: red;
+    position: relative;
+    width: 350px;
+    perspective: 1300px;
+    margin: 100px auto 0 auto;
+  }
+
+  .corusel {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotate360 60s infinite forwards linear;
+  }
+
+  .image-corusel {
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    righht: 10px;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    display: flex;
+  }
+  .image-corusel > span {
+    margin: auto;
+    font-size: 1rem;
+    color: #fff;
+  }
+
+  @keyframes rotate360 {
+    from {
+      transform: rotateY(-360deg);
+    }
+    to {
+      transform: rotateY(0deg);
+    }
+  }
+
+  .image-corusel:nth-child(1) {
+    background-image: url("./img/uefa1.jpg");
+    transform: rotateY(0deg) translateZ(430px);
+  }
+  .image-corusel:nth-child(2) {
+    background-image: url("./img/uefa3.webp");
+    transform: rotateY(40deg) translateZ(430px);
+  }
+  .image-corusel:nth-child(3) {
+    background-image: url("./img/uefa2.jpg");
+    transform: rotateY(80deg) translateZ(430px);
+  }
+  .image-corusel:nth-child(4) {
+    background-image: url("./img/uefa4.webp");
+    transform: rotateY(120deg) translateZ(430px);
+  }
+  .image-corusel:nth-child(5) {
+    background-image: url("./img/supercup1.jpg");
+    transform: rotateY(160deg) translateZ(430px);
+  }
+  .image-corusel:nth-child(6) {
+    background-image: url("./img/supercup2.jpg");
+    transform: rotateY(200deg) translateZ(430px);
+  }
+  .image-corusel:nth-child(7) {
+    background-image: url("./img/supercup3.webp");
+    transform: rotateY(240deg) translateZ(430px);
+  }
+  .image-corusel:nth-child(8) {
+    background-image: url("./img/terimuefa.jpeg");
+    transform: rotateY(280deg) translateZ(430px);
+  }
+  .image-corusel:nth-child(9) {
+    background-image: url("./img/galatasaray-uefa-cup-final-1999-2000-arsenal.jpg");
+    transform: rotateY(3200deg) translateZ(430px);
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .contain {
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+
+  .relate {
+    margin: 0 auto;
+  }
+
+  .corusel {
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-corusel {
+    width: 80%;
+    height: 400px;
+    margin: 20px auto;
+
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    display: flex;
+  }
+  .image-corusel > span {
+    margin: auto;
+    font-size: 5vw;
+    color: #fff;
+  }
+
+  .image-corusel:nth-child(1) {
+    background-image: url("./img/uefa1.jpg");
+  }
+  .image-corusel:nth-child(2) {
+    background-image: url("./img/uefa3.webp");
+  }
+  .image-corusel:nth-child(3) {
+    background-image: url("./img/uefa2.jpg");
+  }
+  .image-corusel:nth-child(4) {
+    background-image: url("./img/uefa4.webp");
+  }
+  .image-corusel:nth-child(5) {
+    background-image: url("./img/supercup1.jpg");
+  }
+  .image-corusel:nth-child(6) {
+    background-image: url("./img/supercup2.jpg");
+  }
+  .image-corusel:nth-child(7) {
+    background-image: url("./img/supercup3.webp");
+  }
+  .image-corusel:nth-child(8) {
+    background-image: url("./img/terimuefa.jpeg");
+  }
+  .image-corusel:nth-child(9) {
+    background-image: url("./img/galatasaray-uefa-cup-final-1999-2000-arsenal.jpg");
+  }
+}
+
+.login-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  padding: 35px;
+  transform: translate(-50%, -50%);
+  background: #a90432;
+  box-shadow: 0 15px 25px rgba(0, 10, 0 0.6);
+  border-radius: 10px;
+  visibility: hidden;
+  opacity: 0;
+
+  transition: 0.5s all;
+}
+
+.active {
+  visibility: visible;
+  opacity: 1;
+  top: 350px;
+  left: 50%;
+}
+
+.menu-nav{
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s all;
+}
+.active-menu{
+  visibility: visible;
+  opacity: 1;
+}
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  text-align: center;
+}
+
+.login-box .userbox input {
+  position: relative;
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border: transparent;
+  border-bottom: 1px solid #fdb912;
+  background: transparent;
+  outline: none;
+}
+
+.login-box .userbox label {
+  position: relative;
+  left: 0;
+  top: -60px;
+  padding: 10px 10px;
+  font-size: 10px;
+  pointer-events: none;
+  transition: 0.5s all;
+}
+
+.login-box .userbox input:focus ~ label,
+.login-box .userbox input:valid ~ label {
+  top: -85px;
+  left: 0;
+  opacity: 0.6;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  letter-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s all;
+  letter-spacing: 4px;
+  border: 1px solid #fdb912;
+  border-radius: 8px;
+}
+
+.submit-btn:hover {
+  background: #fdb912;
+  color: #a90432;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #fdb912, 0 0 25px #fdb912, 0 0 50px #fdb912,
+    0 0 100px #fdb912;
+}
+
+.button-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.register {
+  padding-left: 5px;
+  font-size: 14px;
+  opacity: 0.7;
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+
+.register a {
+  margin: auto;
+  color: #fff;
+  opacity: 0.9;
+}
